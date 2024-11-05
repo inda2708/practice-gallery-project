@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas ARK SURVIVAL</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div
+        class="box"
+        id="left-photo"
+        style="background-image: url('allosaurus.jpg')"
+      >
+        <button onclick="playAudio1('sound1')">Play Audio</button>
+        <button onclick="pauseAudio1('sound1')">Pause Audio</button>
+        <audio id="sound1">
+          <source src="rowrr/Allosaurus5.mp3" type="audio/mp3" />
+        </audio>
+        <h2>ALLOSAURUS</h2>
+      </div>
+      <div
+        class="box"
+        id="left-photo"
+        style="background-image: url('ceratosaurus2.png')"
+      >
+        <button onclick="playAudio2('sound2')">Play Audio</button>
+        <button onclick="pauseAudio2('sound2')">Pause Audio</button>
+        <audio id="sound2">
+          <source src="rowrr/Ceratosaurus4.mp3" type="audio/mp3" />
+        </audio>
+        <h2>CERATOSAURUS</h2>
+      </div>
+    </div>
+    <div class="container2">
+      <div
+        class="box"
+        id="left-photo"
+        style="background-image: url('Dinopithecus.jpg')"
+      >
+        <button onclick="playAudio3('sound3')">Play Audio</button>
+        <button onclick="pauseAudio3('sound3')">Pause Audio</button>
+        <audio id="sound3">
+          <source src="rowrr/Dinosaur2.mp3" type="audio/mp3" />
+        </audio>
+        <h2>DINOSAURUS</h2>
+      </div>
+      <div
+        class="box"
+        id="left-photo"
+        style="background-image: url('gallimimus.jpg')"
+      >
+        <button onclick="playAudio4('sound4')">Play Audio</button>
+        <button onclick="pauseAudio4('sound4')">Pause Audio</button>
+        <audio id="sound4">
+          <source src="rowrr/Gallimimus3.mp3" type="audio/mp3" />
+        </audio>
+        <h2>GALLIMIMUS</h2>
+      </div>
+    </div>
+    <div class="container3">
+      <div
+        class="box"
+        id="left-photo"
+        style="background-image: url('Troodon.png')"
+      >
+        <button onclick="playAudio5('sound5')">Play Audio</button>
+        <button onclick="pauseAudio5('sound5')">Pause Audio</button>
+        <audio id="sound5">
+          <source src="rowrr/Troodon1.mp3" type="audio/mp3" />
+        </audio>
+        <h2>TRODON</h2>
+      </div>
+      <div
+        class="box"
+        id="left-photo"
+        style="background-image: url('castoroidess.png')"
+      >
+        <button onclick="playAudio6('sound6')">Play Audio</button>
+        <button onclick="pauseAudio6('sound6')">Pause Audio</button>
+        <audio id="sound6">
+          <source src="rowrr/Castoroides.mp3" type="audio/mp3" />
+        </audio>
+        <h2>CASTOROIDESS</h2>
+      </div>
+    </div>
+    <script>
+      var music1 = document.getElementById("sound1");
+      var music2 = document.getElementById("sound2");
+      var music3 = document.getElementById("sound3");
+      var music4 = document.getElementById("sound4");
+      var music5 = document.getElementById("sound5");
+      var music6 = document.getElementById("sound6");
+
+      function playAudio1() {
+        music1.play();
+      }
+
+      function pauseAudio1() {
+        music1.pause();
+      }
+      function playAudio2() {
+        music2.play();
+      }
+
+      function pauseAudio2() {
+        music2.pause();
+      }
+      function playAudio3() {
+        music3.play();
+      }
+
+      function pauseAudio3() {
+        music3.pause();
+      }
+      function playAudio4() {
+        music4.play();
+      }
+
+      function pauseAudio4() {
+        music4.pause();
+      }
+      function playAudio5() {
+        music5.play();
+      }
+
+      function pauseAudio5() {
+        music5.pause();
+      }
+      function playAudio6() {
+        music6.play();
+      }
+
+      function pauseAudio6() {
+        music6.pause();
+      }
+    </script>
+  </body>
+</html>

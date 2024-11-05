@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Courier New";
+  display: block;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  overflow-y: scroll;
+  margin: 0;
+  background-image: url(bacground.jpg);
+  background-size: cover;
+}
+.box {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60vh;
+  width: 50vw;
+  border-radius: 0px;
+  color: black;
+  cursor: pointer;
+  margin: 10px;
+  position: relative;
+  flex-direction: column;
+  transition: all 700ms ease-in;
+  transform: scale(1);
+  border: 2px white solid;
+}
+
+.container {
+  display: flex;
+  overflow-x: hidden;
+  width: 90vw;
+  margin: auto;
+}
+.container2 {
+  display: flex;
+  overflow-x: hidden;
+  width: 90vw;
+  margin: auto;
+}
+.container3 {
+  display: flex;
+  overflow-x: hidden;
+  width: 90vw;
+  margin: auto;
+}
+
+.box.zoom-out {
+  transform: scale(1.25);
+  z-index: 10;
+}
+
+.box h3 {
+  font-size: 19px;
+  position: absolute;
+  bottom: 20px;
+  left: 15px;
+  margin: 0;
+  opacity: 0;
+  text-align: center;
+  bottom: 0;
+  border-radius: 0px 0px 15px 15px;
+}
+.button {
+  position: absolute;
+  padding: 10px 20px;
+  background-color: rgba(244, 155, 61, 0.685);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.box {
+  width: 90%;
+  height: 50vh;
+}
+
+.left {
+  top: 10px;
+  left: 10px;
+}
+
+.right {
+  top: 10px;
+  left: 10px;
+}
+
+.box:nth-of-type(4),
+.box:nth-of-type(5) {
+  display: none;
+}
